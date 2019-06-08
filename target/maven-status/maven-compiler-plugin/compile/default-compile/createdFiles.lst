@@ -1,0 +1,9 @@
+com\ciss\crudfuncionariows\repositorio\FuncionarioRepositorio.class
+com\ciss\crudfuncionariows\dto\ErroDTO.class
+com\ciss\crudfuncionariows\bo\FuncionarioBO.class
+com\ciss\crudfuncionariows\service\FuncionarioService.class
+com\ciss\crudfuncionariows\model\Funcionario.class
+com\ciss\crudfuncionariows\util\Util.class
+com\ciss\crudfuncionariows\enums\ErroEnum.class
+com\ciss\crudfuncionariows\dto\FuncionarioDTO.class
+com\ciss\crudfuncionariows\Aplicacao.class
