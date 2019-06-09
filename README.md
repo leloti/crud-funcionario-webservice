@@ -39,5 +39,5 @@ Em caso de sucesso, será retornado o Status HTTP 200 e um de acordo com a neces
 
 ## Development server
 
-Este projeto pode ser executado rodando o comando `java -jar .\target\crud-funcionario-webservice-0.0.1-SNAPSHOT.jar` após acessar o diretório raiz do projeto.
+O projeto pode ser executado por linha de comando,  rodando o comando `java -jar .\target\crud-funcionario-webservice-0.0.1-SNAPSHOT.jar` após acessar o diretório raiz do projeto.
 
