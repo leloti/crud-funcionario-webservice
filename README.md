@@ -8,11 +8,11 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 O projeto foi desenvolvido para atender aos requisitos solicitados via email.
 Foram criados os endpoints:
--> POST /funcionario para cadastrar um novo funcionario.
--> GET /funcionarios para listar todos os funcionários.
--> GET /funcionario/{id} para listar os dados de determinado funcionário.
--> PUT /funcionario/{id} para editar um funcionário.
--> DELETE /funcionario/{id} para deletar um funcionário.
+- POST /funcionario para cadastrar um novo funcionario.
+- GET /funcionarios para listar todos os funcionários.
+- GET /funcionario/{id} para listar os dados de determinado funcionário.
+- PUT /funcionario/{id} para editar um funcionário.
+- DELETE /funcionario/{id} para deletar um funcionário.
 
 
 ## Development server
