@@ -31,7 +31,7 @@ public class Aplicacao {
 	@Bean
 	public CommandLineRunner criarDatabase(FuncionarioRepositorio repositorio) {
     	return (args) -> {
-    		Integer numeroInicializar = 1000;
+    		Integer numeroInicializar = 100;
     		List<Funcionario> listaFuncionarios = funcionarioBo.gerarFuncionariosMemoria(numeroInicializar);
     		
     		for (Funcionario func : listaFuncionarios) {
