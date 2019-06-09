@@ -41,6 +41,7 @@ Em caso de sucesso, será retornado o Status HTTP 200 e objeto solicitado:
 ## Arquitetura
 
 A arquitetura utilizada para este projeto seguindo o padrão:
+
 ```Request > Service > BusinessObject (BO) > DTO to Entity ou Entity to DTO > Repositorio > Database```
 
 - Service: Classe tem a finalidade de receber os request com os parâmetros e encaminhar ao BusinessObject.
