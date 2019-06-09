@@ -49,7 +49,8 @@ A arquitetura utilizada para este projeto seguindo o padrão:
 - Data Transfer Object (DTO): Objeto de manipulação de dados de entrada e retorno em tempo de execução. Este objeto é originado inicialmente a partir da entidade, mas pode receber novos campos. 
 - Repositório: Classe de acesso ao banco de dados. Nele são criados os métodos necessários para cadastrar, consultar, editar e deletar registros do banco de dados. 
 
-## Development server
+## Executando o web service
 
-O projeto pode ser executado por linha de comando,  rodando o comando `java -jar .\target\crud-funcionario-webservice-0.0.1-SNAPSHOT.jar` após acessar o diretório raiz do projeto.
+Este projeto tem um servidor de aplicação Apache imbutido, portanto, pode ser executado sem qualquer dificuldade via linha de comando,  rodando o comando no diretório raiz:
 
+```java -jar .\target\crud-funcionario-webservice-0.0.1-SNAPSHOT.jar```
