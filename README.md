@@ -7,12 +7,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - H2 Database
 
 O projeto foi desenvolvido para atender aos requisitos solicitados via email.
-Foram criados os endpoints:
-- POST /funcionario para cadastrar um novo funcionario.
-- GET /funcionarios para listar todos os funcionários.
-- GET /funcionario/{id} para listar os dados de determinado funcionário.
-- PUT /funcionario/{id} para editar um funcionário.
-- DELETE /funcionario/{id} para deletar um funcionário.
+
+## Banco de dados
 
 O banco de dados é criado em memória é inicializando toda vez que o projeto é executado. A cada inicialização são criados 100 novos registros aleatórios na tabela de FUNCIONARIOS.
 A tabela contém os campos:
@@ -23,6 +19,23 @@ A tabela contém os campos:
 - numeroPis String
 
 Pode ser alterada a quantidade de funcionários gerados alterando o arquivo "Aplicacao.java" na linha 34. 
+
+## Web Service
+
+O webservice foi desenvolvido utilizando o Spring Boot, e contém os endpoints:
+- POST /funcionario para cadastrar um novo funcionario.
+- GET /funcionarios para listar todos os funcionários.
+- GET /funcionario/{id} para listar os dados de determinado funcionário.
+- PUT /funcionario/{id} para editar um funcionário.
+- DELETE /funcionario/{id} para deletar um funcionário.
+
+Caso ocorra algum erro na execução do endpoint, o mesmo retornará com o Status HTTP 400 (Bad Request) ou HTTP 404 (Not Found) e uma mensagem de erro informando o motivo.
+Em caso de sucesso, será retornado o Status HTTP 200 e um de acordo com a necessidade:
+- POST /funcionario: Retorna um objeto de funcionário com os dados do funcionário cadastrado.
+- GET /funcionarios: Retorna uma lista com todos os funcionários cadastrados.
+- GET /funcionario/{id}: Retorna um objeto de funcionário com os dados do funcionário pesquisado.
+- PUT /funcionario/{id}: Retorna um objeto de funcionário com os dados do funcionário alterado.
+- DELETE /funcionario/{id}: não possui retorno.
 
 ## Development server
 
