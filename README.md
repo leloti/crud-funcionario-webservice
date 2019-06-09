@@ -2,6 +2,7 @@
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Java 8 (SDK 1.8)
+- Maven 3.5.4
 - Spring Boot v2.1.4
 - Spring Data v2.1.4
 - H2 Database
