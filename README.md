@@ -1,10 +1,10 @@
 # CrudFuncionarioWebService
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
-Java 8 (SDK 1.8)
-Spring Boot v2.1.4
-Spring Data v2.1.4
-H2 Database Engine.
+- Java 8 (SDK 1.8)
+- Spring Boot v2.1.4
+- Spring Data v2.1.4
+- H2 Database
 
 O projeto foi desenvolvido para atender aos requisitos solicitados via email.
 Foram criados os endpoints:
