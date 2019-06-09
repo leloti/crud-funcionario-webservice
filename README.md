@@ -31,7 +31,7 @@ O webservice foi desenvolvido utilizando o Spring Boot, e contém os endpoints:
 - DELETE /funcionario/{id} para deletar um funcionário.
 
 Caso ocorra algum erro na execução do endpoint, o mesmo retornará com o Status HTTP 400 (Bad Request) ou HTTP 404 (Not Found) e uma mensagem de erro informando o motivo.
-Em caso de sucesso, será retornado o Status HTTP 200 e um de acordo com a necessidade:
+Em caso de sucesso, será retornado o Status HTTP 200 e objeto solicitado:
 - POST /funcionario: Retorna um objeto de funcionário com os dados do funcionário cadastrado.
 - GET /funcionarios: Retorna uma lista com todos os funcionários cadastrados.
 - GET /funcionario/{id}: Retorna um objeto de funcionário com os dados do funcionário pesquisado.
