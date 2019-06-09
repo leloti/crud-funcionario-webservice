@@ -37,6 +37,16 @@ Em caso de sucesso, será retornado o Status HTTP 200 e um de acordo com a neces
 - PUT /funcionario/{id}: Retorna um objeto de funcionário com os dados do funcionário alterado.
 - DELETE /funcionario/{id}: não possui retorno.
 
+## Arquitetura
+
+A arquitetura utilizada para este projeto seguindo o padrão:
+Request > Service > BusinessObject (BO) > DTO to Entity ou Entity to DTO > Repositorio > Database
+
+- Service: Classe tem a finalidade de receber os request com os parâmetros e encaminhar ao BusinessObject.
+- BusinessObject (BO): Classe que contém as regras de negócio, validações e chamadas ao repositório.
+- Data Transfer Object (DTO): Objeto de manipulação de dados de entrada e retorno em tempo de execução. Este objeto é originado inicialmente a partir da entidade, mas pode receber novos campos. 
+- Repositório: Classe de acesso ao banco de dados. Nele são criados os métodos necessários para cadastrar, consultar, editar e deletar registros do banco de dados. 
+
 ## Development server
 
 O projeto pode ser executado por linha de comando,  rodando o comando `java -jar .\target\crud-funcionario-webservice-0.0.1-SNAPSHOT.jar` após acessar o diretório raiz do projeto.
